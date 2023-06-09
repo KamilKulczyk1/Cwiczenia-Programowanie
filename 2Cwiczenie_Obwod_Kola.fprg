@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Kamil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 06:55:25 PM"/>
+        <attribute name="created" value="S2FtaWw7REVTS1RPUC1TMDAwM1JOOzIwMjMtMDYtMDk7MDY6Mjc6MTAgUE07Mjc5Nw=="/>
+        <attribute name="edited" value="S2FtaWw7REVTS1RPUC1TMDAwM1JOOzIwMjMtMDYtMDk7MDY6NTU6MjUgUE07MTsyOTEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Obw&#243;d, Promie&#324;, Pole, LiczbaPi" type="Real" array="False" size=""/>
+            <declare name="Wyb&#243;r" type="String" array="False" size=""/>
+            <assign variable="LiczbaPi" expression="3.14159265"/>
+            <output expression="&quot;Podaj jakiej wielko&#347;ci jest pole ko&#322;a, &#380;eby obliczy&#263; obw&#243;d.&quot;" newline="True"/>
+            <input variable="Pole"/>
+            <assign variable="Promie&#324;" expression="sqrt(Pole/LiczbaPi)"/>
+            <assign variable="Obw&#243;d" expression="2*LiczbaPi*(sqrt(Pole/LiczbaPi))"/>
+            <output expression="&quot;Obw&#243;d ko&#322;a o polu &quot; &amp;Pole &amp;&quot; jest r&#243;wna &quot; &amp;Obw&#243;d" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

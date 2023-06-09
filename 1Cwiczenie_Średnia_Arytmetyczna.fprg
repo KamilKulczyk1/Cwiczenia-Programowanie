@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Kamil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 07:05:45 PM"/>
+        <attribute name="created" value="S2FtaWw7REVTS1RPUC1TMDAwM1JOOzIwMjMtMDYtMDk7MDY6NTU6NTggUE07MjgxMA=="/>
+        <attribute name="edited" value="S2FtaWw7REVTS1RPUC1TMDAwM1JOOzIwMjMtMDYtMDk7MDc6MDU6NDUgUE07MTsyOTEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numer1, Numer2, Numer3, &#346;redniaArytmetyczna" type="Real" array="False" size=""/>
+            <output expression="&quot;Podaj liczbe numer 1&quot;" newline="True"/>
+            <input variable="Numer1"/>
+            <output expression="&quot;Podaj liczbe numer 2&quot;" newline="True"/>
+            <input variable="Numer2"/>
+            <output expression="&quot;Podaj liczbe numer 3&quot;" newline="True"/>
+            <input variable="Numer3"/>
+            <assign variable="&#346;redniaArytmetyczna" expression="(Numer1+Numer2+Numer3)/3"/>
+            <output expression="&quot;&#346;rednia Arytmetyczna podanych liczb wynosi &quot; &amp;&#346;redniaArytmetyczna" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

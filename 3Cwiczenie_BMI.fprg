@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Kamil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 07:50:00 PM"/>
+        <attribute name="created" value="S2FtaWw7REVTS1RPUC1TMDAwM1JOOzIwMjMtMDYtMDk7MDc6NDA6MjEgUE07Mjc5NQ=="/>
+        <attribute name="edited" value="S2FtaWw7REVTS1RPUC1TMDAwM1JOOzIwMjMtMDYtMDk7MDc6NTA6MDAgUE07MTsyOTAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Wzrost, Waga, BMI" type="Real" array="False" size=""/>
+            <declare name="Wyb&#243;r" type="String" array="False" size=""/>
+            <output expression="&quot;Podaj sw&#243;j wzrost&quot;" newline="True"/>
+            <input variable="Wzrost"/>
+            <output expression="&quot;Podaj swoja wag&#281;&quot;" newline="True"/>
+            <input variable="Waga"/>
+            <assign variable="BMI" expression="Waga/((Wzrost/100)*(Wzrost/100))"/>
+            <output expression="&quot;Przy wzroscie: &quot; &amp;Wzrost&amp; &quot;Przy wadze: &quot; &amp;Waga&amp; &quot;Twoje BMI wynosi: &quot;&amp;BMI" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
